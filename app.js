@@ -1,6 +1,7 @@
 const komada = require('komada');
+const token = require("./token.json");
 komada.start({
-  "botToken": "MzA4MzA3MzAyMTk1Mzk2NjE4.C-e9EA.BAmsCH66bNZ-niwcaNNSyjlk_GY",
+  "botToken": token.token,
   "ownerID" : "199621462586425346",
   "clientID": "308307302195396618",
   "prefix": "?",
