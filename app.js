@@ -1,5 +1,5 @@
 const komada = require('komada');
-const token = require("./token.json");
+const config = require("./config.json");
 komada.start({
   "botToken": token.token,
   "ownerID" : "199621462586425346",
